@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuit" time="7" tests="2" failures="0" errors="0">
+   <testsuite name="TestSuit" tests="2" failures="0" errors="0" time="7" timestamp="2018-11-27 10:33:52" hostname="KRUGER - AFIL0078" id="Test Suites/TestSuit">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\KRUGER\\Katalon Studio\\SampleWebTestProject\\Reports\\TestSuit\\20181127_103349"/>
+         <property name="logFiles" value="C:\\Users\\KRUGER\\Katalon Studio\\SampleWebTestProject\\Reports\\TestSuit\\20181127_103349\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="KRUGER - AFIL0078"/>
+         <property name="hostAddress" value="10.10.120.99"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.8.4.14"/>
+      </properties>
+      <testcase name="Test Cases/ListUsersTest" classname="Test Cases/ListUsersTest" status="PASSED">
+         <system-out><![CDATA[2018-11-27 10:33:52 - [TEST_CASE][PASSED] - Test Cases/ListUsersTest: Test Cases/ListUsersTest
+
+2018-11-27 10:33:53 - [TEST_STEP][PASSED] - sendRequest: Send request successfully
+
+2018-11-27 10:33:55 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-27 10:33:55 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequestAndVerify(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(UserRestServices/ListUsers)): Send request and verify the response successfully
+
+2018-11-27 10:33:56 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2018-11-27 10:33:56 - [TEST_STEP][PASSED] - Statement - request = com.kms.katalon.core.webservice.verification.WSResponseManager.getInstance().getCurrentRequest(): null
+
+2018-11-27 10:33:56 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.verification.WSResponseManager.getInstance().getCurrentResponse(): null
+
+2018-11-27 10:33:56 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-27 10:33:56 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-11-27 10:33:56 - [TEST_STEP][PASSED] - Statement - org.assertj.core.api.Assertions.assertThat(response.getStatusCode()).isEqualTo(200): null
+
+2018-11-27 10:33:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-11-27 10:33:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-11-27 10:33:56 - [MESSAGE][PASSED] - Verify response successfully
+
+2018-11-27 10:33:56 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2018-11-27 10:33:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-11-27 10:33:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-11-27 10:33:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-11-27 10:33:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-11-27 10:33:56 - [TEST_STEP][PASSED] - verifyElementsCount: Verify element count successfully
+
+2018-11-27 10:33:56 - [MESSAGE][PASSED] - Verify element count successfully
+
+2018-11-27 10:33:56 - [TEST_STEP][PASSED] - verifyResponseStatusCodeInRange: Verify response status code successfully
+
+2018-11-27 10:33:56 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestHTTPMethods" classname="Test Cases/TestHTTPMethods" status="PASSED">
+         <system-out><![CDATA[2018-11-27 10:33:56 - [TEST_CASE][PASSED] - Test Cases/TestHTTPMethods: Test Cases/TestHTTPMethods
+
+2018-11-27 10:33:56 - [TEST_STEP][PASSED] - sendRequestAndVerify: Send request and verify the response successfully
+
+2018-11-27 10:33:57 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2018-11-27 10:33:57 - [TEST_STEP][PASSED] - Statement - request = com.kms.katalon.core.webservice.verification.WSResponseManager.getInstance().getCurrentRequest(): null
+
+2018-11-27 10:33:57 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.verification.WSResponseManager.getInstance().getCurrentResponse(): null
+
+2018-11-27 10:33:57 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-27 10:33:57 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-11-27 10:33:57 - [TEST_STEP][PASSED] - Statement - org.assertj.core.api.Assertions.assertThat(response.getStatusCode()).isEqualTo(200): null
+
+2018-11-27 10:33:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-11-27 10:33:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-11-27 10:33:57 - [MESSAGE][PASSED] - Verify response successfully
+
+2018-11-27 10:33:57 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2018-11-27 10:33:57 - [TEST_STEP][PASSED] - sendRequestAndVerify: Send request and verify the response successfully
+
+2018-11-27 10:33:58 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2018-11-27 10:33:58 - [TEST_STEP][PASSED] - Statement - request = com.kms.katalon.core.webservice.verification.WSResponseManager.getInstance().getCurrentRequest(): null
+
+2018-11-27 10:33:58 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.verification.WSResponseManager.getInstance().getCurrentResponse(): null
+
+2018-11-27 10:33:58 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-27 10:33:58 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-11-27 10:33:58 - [TEST_STEP][PASSED] - Statement - org.assertj.core.api.Assertions.assertThat(response.getStatusCode()).isEqualTo(201): null
+
+2018-11-27 10:33:58 - [MESSAGE][PASSED] - Verify response successfully
+
+2018-11-27 10:33:58 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2018-11-27 10:33:58 - [TEST_STEP][PASSED] - sendRequestAndVerify: Send request and verify the response successfully
+
+2018-11-27 10:33:58 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2018-11-27 10:33:58 - [TEST_STEP][PASSED] - Statement - request = com.kms.katalon.core.webservice.verification.WSResponseManager.getInstance().getCurrentRequest(): null
+
+2018-11-27 10:33:58 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.verification.WSResponseManager.getInstance().getCurrentResponse(): null
+
+2018-11-27 10:33:58 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-27 10:33:58 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-11-27 10:33:58 - [TEST_STEP][PASSED] - Statement - org.assertj.core.api.Assertions.assertThat(response.getStatusCode()).isEqualTo(204): null
+
+2018-11-27 10:33:58 - [MESSAGE][PASSED] - Verify response successfully
+
+2018-11-27 10:33:58 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2018-11-27 10:33:58 - [TEST_STEP][PASSED] - sendRequestAndVerify: Send request and verify the response successfully
+
+2018-11-27 10:33:59 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2018-11-27 10:33:59 - [TEST_STEP][PASSED] - Statement - request = com.kms.katalon.core.webservice.verification.WSResponseManager.getInstance().getCurrentRequest(): null
+
+2018-11-27 10:33:59 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.verification.WSResponseManager.getInstance().getCurrentResponse(): null
+
+2018-11-27 10:33:59 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-27 10:33:59 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-11-27 10:33:59 - [TEST_STEP][PASSED] - Statement - org.assertj.core.api.Assertions.assertThat(response.getStatusCode()).isEqualTo(200): null
+
+2018-11-27 10:33:59 - [MESSAGE][PASSED] - Verify response successfully
+
+2018-11-27 10:33:59 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-27 10:33:52 - [TEST_SUITE][PASSED] - TestSuit: Test Cases/TestHTTPMethods]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuit,,,2018-11-27 10:33:52,2018-11-27 10:33:59,"7,263s",PASSED
+,,,,,,
+Test Cases/ListUsersTest,,,2018-11-27 10:33:52,2018-11-27 10:33:56,"3,885s",PASSED
+sendRequest,,,2018-11-27 10:33:53,2018-11-27 10:33:55,"2,252s",PASSED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequestAndVerify(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(UserRestServices/ListUsers)),,,2018-11-27 10:33:55,2018-11-27 10:33:56,"0,868s",PASSED
+verifyElementPropertyValue,,,2018-11-27 10:33:56,2018-11-27 10:33:56,"0,025s",PASSED
+verifyElementPropertyValue,,,2018-11-27 10:33:56,2018-11-27 10:33:56,"0,018s",PASSED
+verifyElementsCount,,,2018-11-27 10:33:56,2018-11-27 10:33:56,"0,025s",PASSED
+verifyResponseStatusCodeInRange,,,2018-11-27 10:33:56,2018-11-27 10:33:56,"0,009s",PASSED
+,,,,,,
+Test Cases/TestHTTPMethods,,,2018-11-27 10:33:56,2018-11-27 10:33:59,"2,815s",PASSED
+sendRequestAndVerify,,,2018-11-27 10:33:56,2018-11-27 10:33:57,"0,695s",PASSED
+sendRequestAndVerify,,,2018-11-27 10:33:57,2018-11-27 10:33:58,"0,620s",PASSED
+sendRequestAndVerify,,,2018-11-27 10:33:58,2018-11-27 10:33:58,"0,653s",PASSED
+sendRequestAndVerify,,,2018-11-27 10:33:58,2018-11-27 10:33:59,"0,635s",PASSED
